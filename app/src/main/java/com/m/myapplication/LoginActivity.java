@@ -74,6 +74,8 @@ public class LoginActivity extends AppCompatActivity implements LoaderCallbacks<
         Intent intent = new Intent(getApplicationContext(), LoginActivity.class);
         startService(intent);
 
+        // sdjhfsdjfsdlkfl;sd;flskf;lskf
+
 
         mPasswordView = (EditText) findViewById(R.id.password);
         mPasswordView.setOnEditorActionListener(new TextView.OnEditorActionListener() {
